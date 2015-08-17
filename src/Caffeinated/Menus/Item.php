@@ -216,6 +216,10 @@ class Item
 			case 'glyphicon':
 				$html = '<span class="glyphicon glyphicon-'.$icon.'" aria-hidden="true"></span>';
 				break;
+			
+			case 'simplelineicon':
+				$html = '<i class="icon-'.$icon.'"></i>';
+				break;
 
 			default:
 				$html = '<i class="'.$icon.'"></i>';
